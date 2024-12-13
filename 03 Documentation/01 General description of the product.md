@@ -60,14 +60,12 @@ We are talking about a mobile application that offers virtual avatars based on a
 
 ### How to do login?
 
-[See video](./Videos/00%20Login%20and%20Sing%20In.mp4)
+[Ver el video en YouTube](https://youtu.be/U6RBrZKUjzQ)
 
 
 ### How to update an account?
 
-<video src="./Videos/01 Update account.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/HYng4KUnir0)
 
 ### How to delete an account?
 
