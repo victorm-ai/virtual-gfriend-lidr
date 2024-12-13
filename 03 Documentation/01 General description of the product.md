@@ -62,61 +62,42 @@ We are talking about a mobile application that offers virtual avatars based on a
 
 [Ver el video en YouTube](https://youtu.be/U6RBrZKUjzQ)
 
-
 ### How to update an account?
 
 [Ver el video en YouTube](https://youtu.be/HYng4KUnir0)
 
 ### How to delete an account?
 
-<video src="./Videos/02 Delete account.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/c0kTgeXtHgY)
 
 ### How to create an avatar?
 
-<video src="./Videos/03 Avatar creation.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/FndfJTj6bJE)
 
 ### How to delete an avatar?
 
-<video src="./Videos/04 Avatar delete.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/_-zWVbCMixM)
 
 ### How to update an avatar?
 
-<video src="./Videos/05 Avatar update.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/xgIYfsMp-kc)
 
 ### How to see achievements?
 
-<video src="./Videos/06 Achievements.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/qNT2R1HdPwY)
 
 ### How to create activities?
 
-<video src="./Videos/07 Activity creation.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/sVLW1YlACbc)
 
 ### How to update activities?
 
-<video src="./Videos/08 Activity Update.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/FuHb6Zru6yg)
 
 ### How to delete activities?
 
-<video src="./Videos/09 Activity delete.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube](https://youtu.be/pMkBKXFXz14)
 
 ### How to interact with avatar?
 
-<video src="./Videos/10 Avatar chat.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[Ver el video en YouTube]()
