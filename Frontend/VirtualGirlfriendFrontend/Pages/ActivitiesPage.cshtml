@@ -1,0 +1,109 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.ActivitiesPageModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>User info</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu-item {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu-item:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul style="list-style:none; padding:0;">
+                <li><a class="menu-item" href="AccountPage">Your account</a></li>
+                <li><a class="menu-item" href="AvatarsPage">Your avatars</a></li>
+                <li><a class="menu-item" href="AchievementsPage">Your achievements</a></li>
+                <li><a class="menu-item" href="ActivitiesPage">Your activities</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h2>Here you manage your activities</h2>
+
+
+            <form method="post">
+
+                <div>
+                    <input asp-for="NewActivity.Id" id="Id" type="text" hidden="true" />
+                </div>
+
+                <div>
+                    <label for="Name">Name:</label><br />
+                    <input asp-for="NewActivity.Name" id="Name" type="text" />
+                </div>
+
+                <div>
+                    <label for="When">Date of activity:</label><br />
+                    <input asp-for="NewActivity.WhenIs" id="WhenIs" type="date" />
+                </div>
+
+                <!-- Id, UserId, ActivityId, Timestamp no se incluyen en la interfaz -->
+
+                <br />
+                <button type="submit" asp-page-handler="Create">Create activity</button>
+                <button type="submit" asp-page-handler="Update">Update activity</button>
+                <button type="submit" asp-page-handler="Delete">Delete activity</button>
+            </form>
+
+            <br />
+
+            <h5>Your current activities</h5>
+
+            <br />
+
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <!-- Muestra ActivityId, Name, When -->
+                        <th>ActivityId</th>
+                        <th>Name</th>
+                        <th>When</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ActivitiesList)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.WhenIs</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </main>
+    </div>
+</body>
+</html>

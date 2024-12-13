@@ -1,0 +1,41 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.SignInModel
+@{
+}
+
+<h1>Sign In</h1>
+
+<form method="post">
+    <div>
+        <label for="Name">Name:</label><br />
+        <input asp-for="NewUser.Name" id="Name" type="text" />
+        <span asp-validation-for="NewUser.Name"></span>
+    </div>
+
+    <div>
+        <label for="Account">Account:</label><br />
+        <input asp-for="NewUser.Account" id="Account" type="text" />
+        <span asp-validation-for="NewUser.Account"></span>
+    </div>
+
+    <div>
+        <label for="Password">Password:</label><br />
+        <input asp-for="NewUser.Password" id="Password" type="password" />
+        <span asp-validation-for="NewUser.Password"></span>
+    </div>
+
+    <div>
+        <label for="Email">Email:</label><br />
+        <input asp-for="NewUser.Email" id="Email" type="email" />
+        <span asp-validation-for="NewUser.Email"></span>
+    </div>
+
+    <div>
+        <label for="BirthDate">Birthdate:</label><br />
+        <input asp-for="NewUser.BirthDate" id="BirthDate" type="date" />
+        <span asp-validation-for="NewUser.BirthDate"></span>
+    </div>
+
+    <br />
+    <button type="submit">Create account</button>
+</form>

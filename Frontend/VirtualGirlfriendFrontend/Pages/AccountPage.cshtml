@@ -1,0 +1,105 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.AccountPageModel
+
+@{
+    ViewData["Title"] = "Manage User Account";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>User Account Management</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu-item {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+            .menu-item:hover {
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul style="list-style:none; padding:0;">
+                <li><a class="menu-item" href="AccountPage">Your account</a></li>
+                <li><a class="menu-item" href="AvatarsPage">Your avatars</a></li>
+                <li><a class="menu-item" href="AchievementsPage">Your achievements</a></li>
+                <li><a class="menu-item" href="ActivitiesPage">Your activities</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h2>Here you manage your account</h2>
+
+
+            @if (Model.ErrorMessage != null)
+            {
+                <div class="alert alert-danger">@Model.ErrorMessage</div>
+            }
+
+            <form method="post">
+                <div>
+                    <label for="Name">Name:</label><br />
+                    <input asp-for="User.Name" id="Name" type="text" />
+                </div>
+
+                <div>
+                    <label for="Account">Account:</label><br />
+                    <input asp-for="User.Account" id="Account" type="text" />
+                </div>
+
+                <div>
+                    <label for="Password">Password:</label><br />
+                    <input asp-for="User.Password" id="Password" type="password" />
+                </div>
+
+                <div>
+                    <label for="Email">Email:</label><br />
+                    <input asp-for="User.Email" id="Email" type="email" />
+                </div>
+
+                <div>
+                    <label for="BirthDate">Birthdate:</label><br />
+                    <input asp-for="User.BirthDate" id="BirthDate" type="date" />
+                </div>
+
+                <div>
+                    <input asp-for="User.Id" id="Id" type="text" hidden="true" />
+                </div>
+
+                <div>
+                    <input asp-for="User.IsActive" id="Id" type="text" hidden="true" />
+                </div>
+
+                <!-- Notamos que no se incluye IsActive -->
+
+                <br />
+                <button type="submit" asp-page-handler="Update">Update user</button>
+                <button type="submit" asp-page-handler="Delete">Delete user</button>
+            </form>
+
+        </main>
+    </div>
+</body>
+</html>

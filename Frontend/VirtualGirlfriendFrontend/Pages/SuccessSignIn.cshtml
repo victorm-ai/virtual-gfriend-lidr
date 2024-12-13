@@ -1,0 +1,12 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.SuccessSignInModel
+@{
+}
+
+
+@if (ViewData["MessageResult"] != null)
+{
+    <div class="alert alert-success">
+        <h4>@ViewData["MessageResult"]</h4>
+    </div>
+}

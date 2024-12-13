@@ -1,0 +1,104 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.AchievementsPageModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>User info</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu-item {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu-item:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul style="list-style:none; padding:0;">
+                <li><a class="menu-item" href="AccountPage">Your account</a></li>
+                <li><a class="menu-item" href="AvatarsPage">Your avatars</a></li>
+                <li><a class="menu-item" href="AchievementsPage">Your achievements</a></li>
+                <li><a class="menu-item" href="ActivitiesPage">Your activities</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h2>Here you see your achievements</h2>
+
+            <br />
+            <h5>The achievements table</h5>
+            <br />
+
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>AchievementId</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var achievement in Model.Achievements)
+                    {
+                        <tr>
+                            <td>@achievement.Id</td>
+                            <td>@achievement.Name</td>
+                            <td>@achievement.Description</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <br />
+            <h5>Your achievements table</h5>
+            <br />
+
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>AchievementId </th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   @*  @foreach (var userAchievement in Model.UserAchievements)
+                    {
+                        <tr>
+                            <td>@userAchievement.AchievementId.ToString()</td>
+                            <td>@userAchievement.Timestamp.DateTime</td>
+                        </tr>
+                    } *@
+                </tbody>
+            </table>
+
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.AvatarsPageModel
+@{
+    ViewData["Title"] = "Manage User Avatar";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Avatar Management</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu-item {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu-item:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul style="list-style:none; padding:0;">
+                <li><a class="menu-item" href="AccountPage">Your account</a></li>
+                <li><a class="menu-item" href="AvatarsPage">Your avatars</a></li>
+                <li><a class="menu-item" href="AchievementsPage">Your achievements</a></li>
+                <li><a class="menu-item" href="ActivitiesPage">Your activities</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h2>Here you manage your avatar</h2>
+
+            <form method="post">
+                <div>
+                    <label for="Name">Avatar name:</label><br />
+                    <input asp-for="NewAvatar.Name" id="Name" type="text" />
+                </div>
+
+                <div>
+                    <label for="PersonalityId">Personality:</label><br />
+                    <select asp-for="NewAvatar.PersonalityId" id="PersonalityId">
+                        @foreach (var option in Model.PersonalityOptions)
+                        {
+                            <option value="@option.Id" selected="@(option.Id == Model.NewAvatar.PersonalityId)">
+                                @option.Name
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label for="Name">Physical appearance:</label><br />
+                    <input asp-for="NewAvatar.PhysicalAppearance" id="PhysicalAppearance" type="text" />
+                </div>
+
+                <div>                
+                    <input asp-for="NewAvatar.Id" id="Id" type="text" hidden="true"/>
+                </div>
+
+                <div>
+                    <input asp-for="NewAvatar.IsActive" id="IsActive" type="text" hidden="true" />
+                </div>
+
+                <br />
+                <button type="submit" asp-page-handler="Create">Create avatar</button>
+                <button type="submit" asp-page-handler="Update">Update avatar</button>
+                <button type="submit" asp-page-handler="Delete">Delete avatar</button>
+            </form>
+           
+            @*  <form method="post">
+                <button type="submit" asp-page-handler="Chat">Chat with avatar</button>
+             </form>  *@
+
+             <a href="ChatInteraction">Chat with avatar</a> 
+
+        </main>
+    </div>
+</body>
+</html>

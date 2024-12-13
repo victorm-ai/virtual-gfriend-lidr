@@ -1,0 +1,24 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+@if (Model.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="Password" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>

@@ -1,0 +1,70 @@
+﻿@page
+@model VirtualGirlfriendFrontend.Pages.ChatInteractionModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Avatar Management</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu-item {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu-item:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul style="list-style:none; padding:0;">
+                <li><a class="menu-item" href="AccountPage">Your account</a></li>
+                <li><a class="menu-item" href="AvatarsPage">Your avatars</a></li>
+                <li><a class="menu-item" href="AchievementsPage">Your achievements</a></li>
+                <li><a class="menu-item" href="ActivitiesPage">Your activities</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h2>Here you chat with your avatar</h2>
+
+            <form method="post">
+                <div>
+                    <label>Conversation:</label><br />
+                    <textarea rows="10" cols="80" readonly>@Model.ConversationText</textarea>
+                </div>
+                <br />
+                <div>
+                    <label for="UserMessage">Write your message:</label><br />
+                    <input asp-for="UserMessage" id="UserMessage" type="text" size="60" />
+                </div>
+                <br />
+                <button type="submit">Send</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
