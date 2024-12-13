@@ -60,9 +60,8 @@ We are talking about a mobile application that offers virtual avatars based on a
 
 ### How to do login?
 
-<video src="./Videos/00 Login and Sing In.mp4" controls>
-  Your browser does not support video playback.
-</video>
+[See video](./Videos/00%20Login%20and%20Sing%20In.mp4)
+
 
 ### How to update an account?
 
