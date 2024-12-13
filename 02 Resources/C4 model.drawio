@@ -1,0 +1,1351 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4" pages="6">
+  <diagram id="mkhmw_WQnpn4R4glehHA" name="Legend">
+    <mxGraphModel dx="1562" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="User" c4Type="Person" c4Description="It represents a user in the application." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cJ30tNFgZD-4u5WxQBFa-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="30" y="150" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Software System" c4Type="Software System" c4Description="It represents an autonomous software system." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="O_n5zZClP52XF_0j0ENG-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;align=center;arcSize=10;strokeColor=#6c8ebf;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="290" y="210" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Web App &#xa;Container" c4Type="Container" c4Technology="Any technology" c4Description="It represents web-based or mobile application containers." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="PCSgTmTL52y0u3xcnTB2-1">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="570" y="170" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Microservice &#xa;Container" c4Type="Container" c4Technology="Any technology" c4Description="It represents a &#xa;microservice container." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="mhIzgw0Ur3ug11rjmigm-1">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="20" y="360" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Database &#xa;Container" c4Type="Container" c4Technology="Any technology" c4Description="It represents persistent data storage." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="XRpDW4mxGCuKYJDHpPUN-1">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="280" y="370" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="General &#xa;Container" c4Type="Container" c4Technology="Any technology" c4Description="It represents a computer resource." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fJKg4hKbxjy11ruUbTOx-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="570" y="380" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Component" c4Type="Component" c4Technology="Any technology" c4Description="It represents a computer resource at the code level." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Exwrrg0Zk5SAoFpz2TxF-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="290" y="550" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Level 1: Systems Context" id="sZKxi55ZGMg_HQXTlTYZ">
+    <mxGraphModel dx="1562" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="User" c4Type="Person" c4Description="Registered user who has been assigned a virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Uss4WFANmogLggMcH8iv-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="150" y="450" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Microsoft Azure Cloud" c4Type="Software System" c4Description="Cloud services that allow users to store information and interact with their virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Uss4WFANmogLggMcH8iv-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;align=center;arcSize=10;strokeColor=#6c8ebf;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="510" y="757.5" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Consume cloud services using" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="Uss4WFANmogLggMcH8iv-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Uss4WFANmogLggMcH8iv-1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="130" y="720" as="sourcePoint" />
+              <mxPoint x="250" y="740" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="9QBGx5Vhk5RrI9L9YfPH-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud;" parent="1" vertex="1">
+          <mxGeometry x="605" y="867.5" width="50" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xvyqRRkt6LPO01IvZ2-r-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" parent="1" vertex="1">
+          <mxGeometry x="229.38" y="620" width="41.24" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Mobile App" c4Type="Container" c4Technology="Typescript" c4Description="User interface allowing interaction with the virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="tQx-MmyC_6zpyATcxAam-1">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="130" y="740" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="tQx-MmyC_6zpyATcxAam-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" parent="1" vertex="1">
+          <mxGeometry x="233" y="870" width="34" height="50" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="wvAd6NLA_1Fp2YWCNQ8P-1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tQx-MmyC_6zpyATcxAam-1" target="Uss4WFANmogLggMcH8iv-2" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="400" y="1000" as="sourcePoint" />
+              <mxPoint x="460" y="720" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0eEkZ8_puTRaXuVfexaw" name="Level 2: Cointainers">
+    <mxGraphModel dx="1562" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="User" c4Type="Person" c4Description="Registered user who has been assigned a virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dGt-4foYGheiA0fDZjrw-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#333333;" parent="1" vertex="1">
+            <mxGeometry x="469" y="-160" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Container diagram for Microsoft Azure Cloud" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="dGt-4foYGheiA0fDZjrw-2">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry y="340" width="1170" height="1500" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Mobile App" c4Type="Container" c4Technology="Typescript" c4Description="User interface allowing interaction with the virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="hUDu1MYrod_MEculeqpj-3">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="449.62" y="140" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Chat, play, talk, have fun using" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="hUDu1MYrod_MEculeqpj-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uAbUdCJoEXAci_wIhx6a-27" target="hUDu1MYrod_MEculeqpj-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="100" y="270" as="sourcePoint" />
+              <mxPoint x="340" y="270" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Users &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Management of user accounts, authentication and profiles." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GdxOeqJPxdVtOeaAMUPo-3">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="40" y="360" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Avatar management &#xa;and personalisation." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GdxOeqJPxdVtOeaAMUPo-4">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="910" y="790" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Handling of real-time interactions &#xa;(chat, video calls, etc.)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GdxOeqJPxdVtOeaAMUPo-5">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="910" y="360" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Management of reminders &#xa;and shared activities." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GdxOeqJPxdVtOeaAMUPo-6">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="40" y="790" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements&#xa;Microservice " c4Type="Container" c4Technology="Azure App Service" c4Description="Achievement and reward &#xa;management." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GdxOeqJPxdVtOeaAMUPo-7">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="910" y="1228" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Content &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Storage of shared content &#xa;between the user and &#xa;his avatar." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-1">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="40" y="1228" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-7">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.135;exitY=0.247;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="350" y="620" as="sourcePoint" />
+              <mxPoint x="240" y="445" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="420" y="832" />
+                <mxPoint x="420" y="620" />
+                <mxPoint x="320" y="620" />
+                <mxPoint x="320" y="445" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-9">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.03;exitY=0.493;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" target="GdxOeqJPxdVtOeaAMUPo-6" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="400" y="650" as="sourcePoint" />
+              <mxPoint x="640" y="650" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-10">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" target="aXyZnwebvjsYSEdyARPr-1" edge="1">
+            <mxGeometry x="-0.3244" width="240" relative="1" as="geometry">
+              <mxPoint x="410" y="760" as="sourcePoint" />
+              <mxPoint x="650" y="760" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="469" y="990" />
+                <mxPoint x="470" y="990" />
+                <mxPoint x="470" y="1313" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-11">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.974;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" target="GdxOeqJPxdVtOeaAMUPo-4" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="550" y="590" as="sourcePoint" />
+              <mxPoint x="790" y="590" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="Azure API &#xa;Management" c4Description="It performs API management, authentication, authorisation &#xa;and traffic control." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-13">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#f8cecc;fontSize=12;align=center;strokeColor=#b85450;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="469" y="790" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-14">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" target="GdxOeqJPxdVtOeaAMUPo-7" edge="1">
+            <mxGeometry x="-0.3373" width="240" relative="1" as="geometry">
+              <mxPoint x="660" y="970" as="sourcePoint" />
+              <mxPoint x="756.4000000000001" y="878.81" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="669" y="1313" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aXyZnwebvjsYSEdyARPr-15">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.9;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" target="GdxOeqJPxdVtOeaAMUPo-5" edge="1">
+            <mxGeometry x="-0.0568" width="240" relative="1" as="geometry">
+              <mxPoint x="490" y="570" as="sourcePoint" />
+              <mxPoint x="760" y="440" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="750" y="837" />
+                <mxPoint x="750" y="445" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interaction Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information (interactions)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-1">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="890" y="600" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GdxOeqJPxdVtOeaAMUPo-5" target="N91GtFeAZb3UlSjS-ce2-1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="920" y="560" as="sourcePoint" />
+              <mxPoint x="1160" y="560" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing structured information (avatars)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-4">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;fontSize=12;align=center;strokeColor=#d79b00;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="890" y="1030" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-6">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GdxOeqJPxdVtOeaAMUPo-4" target="N91GtFeAZb3UlSjS-ce2-4" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="880" y="970" as="sourcePoint" />
+              <mxPoint x="1120" y="970" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing structured information (achievements)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-7">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;fontSize=12;align=center;strokeColor=#d79b00;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="890" y="1468" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-8">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GdxOeqJPxdVtOeaAMUPo-7" target="N91GtFeAZb3UlSjS-ce2-7" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="560" y="1408" as="sourcePoint" />
+              <mxPoint x="800" y="1408" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Users Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing structured information (users)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-9">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="20" y="600" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-10">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GdxOeqJPxdVtOeaAMUPo-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="100" y="570" as="sourcePoint" />
+              <mxPoint x="140" y="600" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information (activities)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-11">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;fontSize=12;align=center;strokeColor=#d79b00;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="20" y="1040" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-13">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GdxOeqJPxdVtOeaAMUPo-6" target="N91GtFeAZb3UlSjS-ce2-11" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="130" y="990" as="sourcePoint" />
+              <mxPoint x="370" y="990" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Content Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information (content)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-14">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;fontSize=12;align=center;strokeColor=#d79b00;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="20" y="1468" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="N91GtFeAZb3UlSjS-ce2-15">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-1" target="N91GtFeAZb3UlSjS-ce2-14" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="340" y="1458" as="sourcePoint" />
+              <mxPoint x="580" y="1458" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Identity Provider" c4Type="Container" c4Technology="Azure AD B2C" c4Description="Validates the authentication of the users registered in the application." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="HliC-b-zDk9XTbBQIJaL-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="449" y="590" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="HliC-b-zDk9XTbBQIJaL-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hUDu1MYrod_MEculeqpj-3" target="HliC-b-zDk9XTbBQIJaL-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="559" y="530" as="sourcePoint" />
+              <mxPoint x="799" y="530" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="569" y="560" />
+                <mxPoint x="569" y="560" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="HliC-b-zDk9XTbBQIJaL-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uAbUdCJoEXAci_wIhx6a-23" target="aXyZnwebvjsYSEdyARPr-13" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="559" y="750" as="sourcePoint" />
+              <mxPoint x="839" y="810" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="569" y="760" />
+                <mxPoint x="569" y="760" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object c4Name="Key Vault" c4Type="Container" c4Technology="Azure Key Vault" c4Description="Securely stores  secrets, keys and certificates." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="HliC-b-zDk9XTbBQIJaL-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="620" y="1450" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object c4Name="Content Storage" c4Type="Container" c4Technology="Blob Storage" c4Description="Stores all types of non-relational content (files, videos, images, etc...)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="YQaDuzy5UJCWQRpigDQL-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#ffff88;align=center;arcSize=10;strokeColor=#36393d;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="294" y="1450" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lp113CK8XgutgWzwGnyR-1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.875;exitY=0.776;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-1" target="YQaDuzy5UJCWQRpigDQL-1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="320" y="1350" as="sourcePoint" />
+              <mxPoint x="560" y="1350" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1150" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="990" y="710" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1580" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
+          <mxGeometry x="120" y="710" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1140" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1580" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-11" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="124" y="940" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="995" y="940" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-13" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="124" y="1380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-14" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="995" y="1380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-15" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="125" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="995" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-17" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" parent="1" vertex="1">
+          <mxGeometry x="552.62" y="270" width="34" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-24" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HliC-b-zDk9XTbBQIJaL-3" target="uAbUdCJoEXAci_wIhx6a-23" edge="1">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="569" y="710" as="sourcePoint" />
+            <mxPoint x="569" y="790" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-23" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/security/identity_provider.svg;" parent="1" vertex="1">
+          <mxGeometry x="549" y="700" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-25" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" parent="1" vertex="1">
+          <mxGeometry x="721" y="1560" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-26" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" parent="1" vertex="1">
+          <mxGeometry x="391.78" y="1560" width="44.44" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-28" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="dGt-4foYGheiA0fDZjrw-1" target="uAbUdCJoEXAci_wIhx6a-27" edge="1">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="569" y="20" as="sourcePoint" />
+            <mxPoint x="569" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-27" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" parent="1" vertex="1">
+          <mxGeometry x="549" y="10" width="41.24" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="AI Love&#xa;Microservice " c4Type="Container" c4Technology="Azure App Service" c4Description="Data Training Model" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Ah6hd8kLUECYig_1FSq4-1">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="469" y="1645" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ah6hd8kLUECYig_1FSq4-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="554" y="1780" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Ah6hd8kLUECYig_1FSq4-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uAbUdCJoEXAci_wIhx6a-19" target="Ah6hd8kLUECYig_1FSq4-1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="560" y="1280" as="sourcePoint" />
+              <mxPoint x="569" y="1620" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="Ah6hd8kLUECYig_1FSq4-6" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aXyZnwebvjsYSEdyARPr-13" target="uAbUdCJoEXAci_wIhx6a-19" edge="1">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="569" y="960" as="sourcePoint" />
+            <mxPoint x="569" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAbUdCJoEXAci_wIhx6a-19" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" parent="1" vertex="1">
+          <mxGeometry x="544.62" y="940" width="50" height="50" as="geometry" />
+        </mxCell>
+        <object c4Name="Open AI Service" c4Type="Container" c4Technology="GPT 4" c4Description="Represents an instance of the AI model GPT 4" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="Ah6hd8kLUECYig_1FSq4-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="880" y="1660" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="UMsbfNYx7S998JzVq2g2-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="985" y="1760" width="50" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="UMsbfNYx7S998JzVq2g2-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ah6hd8kLUECYig_1FSq4-1" target="Ah6hd8kLUECYig_1FSq4-9" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="720" y="1700" as="sourcePoint" />
+              <mxPoint x="960" y="1700" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Level 2: Cointainers (Shared database)" id="Ruqt_l4UmFKsIfKr66kC">
+    <mxGraphModel dx="1562" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-0" />
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-1" parent="fvbc5tBM_u0G4OR6mk-_-0" />
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-32">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-4" target="fvbc5tBM_u0G4OR6mk-_-31">
+            <mxGeometry x="0.0569" y="1" width="240" relative="1" as="geometry">
+              <mxPoint x="719" y="530" as="sourcePoint" />
+              <mxPoint x="959" y="530" as="targetPoint" />
+              <Array as="points" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Identity Provider" c4Type="Container" c4Technology="Azure AD B2C" c4Description="Validates the authentication of the users registered in the application." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-31">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="609" y="433" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="User" c4Type="Person" c4Description="Registered user who has been assigned a virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-2">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#333333;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="629" y="-160" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Container diagram for Microsoft Azure Cloud" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-3">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="130" y="350" width="1570" height="1350" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Mobile App" c4Type="Container" c4Technology="Typescript" c4Description="User interface allowing interaction with the virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-4">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="609.62" y="140" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Chat, play, talk, have fun using" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-55" target="fvbc5tBM_u0G4OR6mk-_-4">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="260" y="270" as="sourcePoint" />
+              <mxPoint x="500" y="270" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Users &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Management of user accounts, authentication and profiles." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-6">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="178" y="999" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Avatar management &#xa;and personalisation." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-7">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="399.86" y="1041" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="Azure API &#xa;Management" c4Description="It performs API management, authentication, authorisation &#xa;and traffic control." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-16">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#f8cecc;fontSize=12;align=center;strokeColor=#b85450;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="629.62" y="690" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="fvbc5tBM_u0G4OR6mk-_-33">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-51" target="fvbc5tBM_u0G4OR6mk-_-16">
+            <mxGeometry x="-0.0665" width="240" relative="1" as="geometry">
+              <mxPoint x="719" y="625" as="sourcePoint" />
+              <mxPoint x="729" y="665" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="729" y="635" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-44" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="484.86" y="1194" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-49" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="712.62" y="270" width="34" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-51" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/security/identity_provider.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="710.24" y="540" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-54" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-2" target="fvbc5tBM_u0G4OR6mk-_-55">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="729" y="20" as="sourcePoint" />
+            <mxPoint x="729" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-55" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="709" y="10" width="41.24" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-59" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-16" target="fvbc5tBM_u0G4OR6mk-_-60">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="729.62" y="860" as="sourcePoint" />
+            <mxPoint x="729.62" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvbc5tBM_u0G4OR6mk-_-60" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="705.24" y="840" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K7ge1clKCpSwMwoNmjux-0" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="263" y="1149" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Achievements&#xa;Microservice " c4Type="Container" c4Technology="Azure App Service" c4Description="Achievement and reward &#xa;management." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="K7ge1clKCpSwMwoNmjux-1">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="630" y="1124" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="K7ge1clKCpSwMwoNmjux-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="715" y="1280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Xb-Ddo0HLrVEg9vR1TCX-0">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-60" target="fvbc5tBM_u0G4OR6mk-_-6">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="910" y="970" as="sourcePoint" />
+              <mxPoint x="1150" y="970" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Xb-Ddo0HLrVEg9vR1TCX-3">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-60" target="fvbc5tBM_u0G4OR6mk-_-7">
+            <mxGeometry x="0.3993" width="240" relative="1" as="geometry">
+              <mxPoint x="1010" y="950" as="sourcePoint" />
+              <mxPoint x="1250" y="950" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="730" y="1000" />
+                <mxPoint x="500" y="1000" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Xb-Ddo0HLrVEg9vR1TCX-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-60" target="K7ge1clKCpSwMwoNmjux-1">
+            <mxGeometry x="0.4558" y="1" width="240" relative="1" as="geometry">
+              <mxPoint x="709.0399999999997" y="920" as="sourcePoint" />
+              <mxPoint x="1248.8" y="1060" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Virtual Girlfriend &#xa;SQL Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing &#xa;structured information." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="VlByVAjzmvd-zLaUiAjY-0">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="159" y="1455" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="VlByVAjzmvd-zLaUiAjY-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="361.86" y="1550" width="38" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="VlByVAjzmvd-zLaUiAjY-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.567;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="K7ge1clKCpSwMwoNmjux-0" target="VlByVAjzmvd-zLaUiAjY-0">
+            <mxGeometry x="-0.508" width="240" relative="1" as="geometry">
+              <mxPoint x="420" y="1360" as="sourcePoint" />
+              <mxPoint x="660" y="1360" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="1240" />
+                <mxPoint x="279" y="1240" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="VlByVAjzmvd-zLaUiAjY-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.405;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-44" target="VlByVAjzmvd-zLaUiAjY-0">
+            <mxGeometry x="-0.6312" y="3" width="240" relative="1" as="geometry">
+              <mxPoint x="560" y="1430" as="sourcePoint" />
+              <mxPoint x="800" y="1430" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="497" y="1340" />
+                <mxPoint x="279" y="1340" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="VlByVAjzmvd-zLaUiAjY-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="K7ge1clKCpSwMwoNmjux-2" target="VlByVAjzmvd-zLaUiAjY-0">
+            <mxGeometry x="-0.3205" width="240" relative="1" as="geometry">
+              <mxPoint x="760" y="1400" as="sourcePoint" />
+              <mxPoint x="920" y="1430" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Handling of real-time interactions &#xa;(chat, video calls, etc.)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="gMj6su7SsPmlokX5ZzSC-0">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="1050" y="534" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gMj6su7SsPmlokX5ZzSC-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="1135" y="691" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Activities &#xa;Microservice" c4Type="Container" c4Technology="Azure App Service" c4Description="Management of reminders &#xa;and shared activities." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="OUCBnoKEWF-m9YB_svF0-0">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="1050" y="906" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="OUCBnoKEWF-m9YB_svF0-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="1135" y="1060" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Y4glnYKky1GSL1O9xSf--0">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-16" target="gMj6su7SsPmlokX5ZzSC-0">
+            <mxGeometry x="-0.1355" width="240" relative="1" as="geometry">
+              <mxPoint x="850" y="800" as="sourcePoint" />
+              <mxPoint x="1110" y="890" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="950" y="775" />
+                <mxPoint x="950" y="480" />
+                <mxPoint x="1149" y="480" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Y4glnYKky1GSL1O9xSf--1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" target="OUCBnoKEWF-m9YB_svF0-0">
+            <mxGeometry x="0.6176" width="240" relative="1" as="geometry">
+              <mxPoint x="829.6199999999999" y="775" as="sourcePoint" />
+              <mxPoint x="910" y="870" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="880" y="775" />
+                <mxPoint x="880" y="990" />
+                <mxPoint x="910" y="990" />
+                <mxPoint x="910" y="991" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Virtual Girlfriend&#xa;Cosmos Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="EELfBHY8UlWT9eXLUTH2-0">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;fontSize=12;align=center;strokeColor=#d79b00;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="1428" y="926" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="EELfBHY8UlWT9eXLUTH2-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="1640" y="1020" width="40" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="EELfBHY8UlWT9eXLUTH2-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.004;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="OUCBnoKEWF-m9YB_svF0-0" target="EELfBHY8UlWT9eXLUTH2-0">
+            <mxGeometry x="0.012" width="240" relative="1" as="geometry">
+              <mxPoint x="1350" y="1240" as="sourcePoint" />
+              <mxPoint x="1482" y="1030" as="targetPoint" />
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object c4Name="Key Vault" c4Type="Container" c4Technology="Azure Key Vault" c4Description="Securely stores  secrets, keys and certificates." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="5zOFbtHHmJMVToMTuzie-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="520" y="1455" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="5zOFbtHHmJMVToMTuzie-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="621" y="1565" width="38" height="38" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="AI Love&#xa;Microservice " c4Type="Container" c4Technology="Azure App Service" c4Description="Data Training Model" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Zcy-o0BJDN0BySmjQRaN-0">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#e1d5e7;fontSize=12;align=center;strokeColor=#9673a6;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="1050" y="1138" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Zcy-o0BJDN0BySmjQRaN-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="1135" y="1273" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object c4Name="Open AI Service" c4Type="Container" c4Technology="GPT 4" c4Description="Represents an instance of the AI model GPT 4" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="Zcy-o0BJDN0BySmjQRaN-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="1029" y="1388" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Zcy-o0BJDN0BySmjQRaN-3" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="1125" y="1498" width="50" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Zcy-o0BJDN0BySmjQRaN-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="Zcy-o0BJDN0BySmjQRaN-0" target="Zcy-o0BJDN0BySmjQRaN-2">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1301" y="1193" as="sourcePoint" />
+              <mxPoint x="1541" y="1193" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="jc7tl4nv0mbBcxZ_ItcK-0">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="fvbc5tBM_u0G4OR6mk-_-16" target="Zcy-o0BJDN0BySmjQRaN-0">
+            <mxGeometry x="0.7978" width="240" relative="1" as="geometry">
+              <mxPoint x="850" y="1330" as="sourcePoint" />
+              <mxPoint x="1090" y="1330" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="880" y="775" />
+                <mxPoint x="880" y="1223" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object c4Name="Content Storage" c4Type="Container" c4Technology="Blob Storage" c4Description="Stores all types of non-relational content (files, videos, images, etc...)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="LWCKV08tCVTa_4wBRiQl-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#ffff88;align=center;arcSize=10;strokeColor=#36393d;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+            <mxGeometry x="1269" y="744" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LWCKV08tCVTa_4wBRiQl-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="fvbc5tBM_u0G4OR6mk-_-1">
+          <mxGeometry x="1366.78" y="844" width="44.44" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Vjvz4mZ43Xf-ZpKqYzmm-10">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="gMj6su7SsPmlokX5ZzSC-0" target="EELfBHY8UlWT9eXLUTH2-0">
+            <mxGeometry x="-0.5751" width="240" relative="1" as="geometry">
+              <mxPoint x="1290" y="520" as="sourcePoint" />
+              <mxPoint x="1530" y="520" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Vjvz4mZ43Xf-ZpKqYzmm-11">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fvbc5tBM_u0G4OR6mk-_-1" source="gMj6su7SsPmlokX5ZzSC-0" target="LWCKV08tCVTa_4wBRiQl-0">
+            <mxGeometry x="-0.0758" width="240" relative="1" as="geometry">
+              <mxPoint x="1300" y="681" as="sourcePoint" />
+              <mxPoint x="1540" y="681" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1310" y="619" />
+                <mxPoint x="1310" y="711" />
+                <mxPoint x="1389" y="711" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fRHQ43w3oZ7L8rORho3Q" name="Level 3: Component">
+    <mxGraphModel dx="2412" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="Users Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="nz8aY-lBz5veBFgzadZH-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-299" y="150" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Users Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the users registered in the database." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="nz8aY-lBz5veBFgzadZH-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-289" y="180" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="Azure API &#xa;Management" c4Description="It performs API management, authentication, authorisation &#xa;and traffic control." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="6VJ6fIw8JzQwyt6W9845-1">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#f8cecc;fontSize=12;align=center;strokeColor=#b85450;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="340" y="50" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="GyYWktmyLxyevG5KCQmM-1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="nz8aY-lBz5veBFgzadZH-2" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="510" y="330" as="sourcePoint" />
+              <mxPoint x="-210" y="140" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="-170" y="135" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Users Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing structured information (users)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="r2sRaNVM91U7COaCjISg-1">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="-299" y="450" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="r2sRaNVM91U7COaCjISg-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="r2sRaNVM91U7COaCjISg-1" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-179" y="360" as="sourcePoint" />
+              <mxPoint x="311" y="410" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="vm8Td1_K9ApJbSTQ4RJo-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-16" y="320" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all interactions between the user and his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vm8Td1_K9ApJbSTQ4RJo-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-6" y="350" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information (interactions)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vm8Td1_K9ApJbSTQ4RJo-3">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="-16" y="620" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="vm8Td1_K9ApJbSTQ4RJo-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="vm8Td1_K9ApJbSTQ4RJo-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="104" y="530" as="sourcePoint" />
+              <mxPoint x="594" y="580" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="0g2KyZVcF7v5Xjdkztid-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="vm8Td1_K9ApJbSTQ4RJo-2" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="670" y="260" as="sourcePoint" />
+              <mxPoint x="70" y="220" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="250" />
+                <mxPoint x="114" y="250" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="x29ZKf1uXYH24Nhu2IVR-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="310" y="320" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all interactions between the user and his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="x29ZKf1uXYH24Nhu2IVR-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="320" y="350" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information (activities)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="x29ZKf1uXYH24Nhu2IVR-3">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="310" y="620" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="x29ZKf1uXYH24Nhu2IVR-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1VPDKqm3eM0edp991ZDL-3" target="x29ZKf1uXYH24Nhu2IVR-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="430" y="530" as="sourcePoint" />
+              <mxPoint x="920" y="580" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="&#xa;Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="cmZRu4j7MDEDzm0FQP_n-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="x29ZKf1uXYH24Nhu2IVR-2" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="510" y="280" as="sourcePoint" />
+              <mxPoint x="750" y="280" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="cmZRu4j7MDEDzm0FQP_n-3">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="620" y="320" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the characteristics and behaviours of an avatar." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cmZRu4j7MDEDzm0FQP_n-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="630" y="350" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing structured information (activities)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cmZRu4j7MDEDzm0FQP_n-5">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="620" y="620" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="cmZRu4j7MDEDzm0FQP_n-6">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="cmZRu4j7MDEDzm0FQP_n-5" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="740" y="530" as="sourcePoint" />
+              <mxPoint x="1230" y="580" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="cmZRu4j7MDEDzm0FQP_n-11">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="cmZRu4j7MDEDzm0FQP_n-4" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="450" y="230" as="sourcePoint" />
+              <mxPoint x="124" y="360" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="250" />
+                <mxPoint x="750" y="250" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Content Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="3-sok_nGD1BBIPXhuWUH-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="920" y="150" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Content Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the content shared between the user and his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="3-sok_nGD1BBIPXhuWUH-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="930" y="180" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Content Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information (activities)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="3-sok_nGD1BBIPXhuWUH-3">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="920" y="450" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="3-sok_nGD1BBIPXhuWUH-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1VPDKqm3eM0edp991ZDL-6" target="3-sok_nGD1BBIPXhuWUH-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1040" y="360" as="sourcePoint" />
+              <mxPoint x="1530" y="410" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="hgu6X0coDrAtF-VzV8ee-1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="3-sok_nGD1BBIPXhuWUH-2" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="670" y="100" as="sourcePoint" />
+              <mxPoint x="910" y="100" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="hgu6X0coDrAtF-VzV8ee-2">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-16" y="-200" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the achievements obtained by a user when interacting with his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="hgu6X0coDrAtF-VzV8ee-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-6" y="-170" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing structured information (achievements )." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="hgu6X0coDrAtF-VzV8ee-4">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="-6" y="-400" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="hgu6X0coDrAtF-VzV8ee-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hgu6X0coDrAtF-VzV8ee-3" target="hgu6X0coDrAtF-VzV8ee-4" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="104" y="-180" as="sourcePoint" />
+              <mxPoint x="594" y="-130" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="PwqFIOHQ49Qwy2FeBoc4-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="hgu6X0coDrAtF-VzV8ee-3" edge="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="480" y="-210" as="sourcePoint" />
+              <mxPoint x="720" y="-210" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object c4Name="Content Storage" c4Type="Container" c4Technology="Blob Storage" c4Description="Stores all types of non-relational content (files, videos, images, etc...)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="fUbLhKDW4ObjfRnfXJnl-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#ffff88;align=center;arcSize=10;strokeColor=#36393d;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1230" y="450" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="fUbLhKDW4ObjfRnfXJnl-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.533;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3-sok_nGD1BBIPXhuWUH-2" target="fUbLhKDW4ObjfRnfXJnl-1" edge="1">
+            <mxGeometry x="0.3397" y="2" width="240" relative="1" as="geometry">
+              <mxPoint x="1470" y="280" as="sourcePoint" />
+              <mxPoint x="1710" y="280" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="-N7cg1fHqduoxTqlDWZ4-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" parent="1" vertex="1">
+          <mxGeometry x="415" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="-194" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="89" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-4" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="1VPDKqm3eM0edp991ZDL-3" edge="1">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="430" y="530" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="415" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="725" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-7" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="1VPDKqm3eM0edp991ZDL-6" edge="1">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="1040" y="360" as="sourcePoint" />
+            <mxPoint x="1040" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VPDKqm3eM0edp991ZDL-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="99" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kF2QVwogU-4n4UYBag2K-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kF2QVwogU-4n4UYBag2K-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="410" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kF2QVwogU-4n4UYBag2K-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="84" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKsycT6Jr3dIcux27r86-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
+          <mxGeometry x="-198" y="570" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKsycT6Jr3dIcux27r86-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
+          <mxGeometry x="731" y="730" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKsycT6Jr3dIcux27r86-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" parent="1" vertex="1">
+          <mxGeometry x="99" y="-420" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rXk4Vy93nvKsSUI43R4I-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" parent="1" vertex="1">
+          <mxGeometry x="1327.78" y="560" width="44.44" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="AI Love Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="6Y1AvFwOw4B5ShHJc17X-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="560" y="-340" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Love Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows connection to GPT 4 via the Open AI API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="6Y1AvFwOw4B5ShHJc17X-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="570" y="-310" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="6Y1AvFwOw4B5ShHJc17X-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="675" y="-140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="e.g. Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="6Y1AvFwOw4B5ShHJc17X-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.86;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6VJ6fIw8JzQwyt6W9845-1" target="6Y1AvFwOw4B5ShHJc17X-2" edge="1">
+            <mxGeometry x="-0.518" width="240" relative="1" as="geometry">
+              <mxPoint x="570" y="-340" as="sourcePoint" />
+              <mxPoint x="810" y="-340" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="512" y="-256" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Level 3: Component (Shared database)" id="JuoSxuFOMLalk92ikvLL">
+    <mxGraphModel dx="1562" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-0" />
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-1" parent="MhBi_5XJVtt8xiB_2HxH-0" />
+        <object placeholders="1" c4Name="Users Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-2">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="10" y="340" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Users Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the users registered in the database." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="20" y="370" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="Azure API &#xa;Management" c4Description="It performs API management, authentication, authorisation &#xa;and traffic control." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-4">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#f8cecc;fontSize=12;align=center;strokeColor=#b85450;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="340" y="50" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-8">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="630" y="-250" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interactions Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all interactions between the user and his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="640" y="-220" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-13">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="630" y="-550" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Activities Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all activities between the user and his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="640" y="-520" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-18">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="310" y="340" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Avatars Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the characteristics and behaviours of an avatar." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="320" y="370" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-28">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="620" y="340" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Achievements Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows to manage all the achievements obtained by a user when interacting with his virtual girlfriend." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="630" y="370" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object c4Name="Content Storage" c4Type="Container" c4Technology="Blob Storage" c4Description="Stores all types of non-relational content (files, videos, images, etc...)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="MhBi_5XJVtt8xiB_2HxH-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#ffff88;align=center;arcSize=10;strokeColor=#36393d;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="1000" y="-52" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-35" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="415" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-36" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="115" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-37" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="735" y="-50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-38" value="" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" target="MhBi_5XJVtt8xiB_2HxH-39">
+          <mxGeometry width="240" relative="1" as="geometry">
+            <mxPoint x="750" y="-340" as="sourcePoint" />
+            <mxPoint x="750" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-39" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="735" y="-350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-40" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="415" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-43" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="735" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-50" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="1097.78" y="58" width="44.44" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="AI Love Microservice" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-51">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="678" y="45" width="260" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Love Controller" c4Type="Component" c4Technology="ASP.Net Core WebAPI" c4Description="It allows connection to GPT 4 via the Open AI API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MhBi_5XJVtt8xiB_2HxH-52">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;align=center;arcSize=6;strokeColor=#82b366;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="688" y="75" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MhBi_5XJVtt8xiB_2HxH-53" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="793" y="245" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="cRf0RTagqrfk1CzaYNiB-0">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-9" target="MhBi_5XJVtt8xiB_2HxH-33">
+            <mxGeometry x="0.2069" width="240" relative="1" as="geometry">
+              <mxPoint x="1100" y="-140" as="sourcePoint" />
+              <mxPoint x="1340" y="-140" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="960" y="-160" />
+                <mxPoint x="960" y="-110" />
+                <mxPoint x="1120" y="-110" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Virtual Girlfriend&#xa;Cosmos Database" c4Type="Container" c4Technology="Azure Cosmos DB" c4Description="No-SQL database for storing structured information." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ZjWl6C70G_oNHTCRjEiQ-0">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;fontSize=12;align=center;strokeColor=#d79b00;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="1030" y="-410" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ZjWl6C70G_oNHTCRjEiQ-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="1242" y="-316" width="40" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ZjWl6C70G_oNHTCRjEiQ-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.475;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-9" target="ZjWl6C70G_oNHTCRjEiQ-0">
+            <mxGeometry x="0.1168" width="240" relative="1" as="geometry">
+              <mxPoint x="980" y="-230" as="sourcePoint" />
+              <mxPoint x="1220" y="-230" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="960" y="-160" />
+                <mxPoint x="960" y="-220" />
+                <mxPoint x="1144" y="-220" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Virtual Girlfriend &#xa;SQL Database" c4Type="Container" c4Technology="SQL Azure" c4Description="Relational database for storing &#xa;structured information." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-0">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="309.57" y="735" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="q31Tw1cvBgdYYX-DSmUY-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="512.43" y="830" width="38" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.533;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-36" target="q31Tw1cvBgdYYX-DSmUY-0">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="370" y="640" as="sourcePoint" />
+              <mxPoint x="610" y="640" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="131" y="630" />
+                <mxPoint x="430" y="630" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-3">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-40" target="q31Tw1cvBgdYYX-DSmUY-0">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="630" y="690" as="sourcePoint" />
+              <mxPoint x="870" y="690" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-4">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.467;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-43" target="q31Tw1cvBgdYYX-DSmUY-0">
+            <mxGeometry x="-0.2596" width="240" relative="1" as="geometry">
+              <mxPoint x="660" y="710" as="sourcePoint" />
+              <mxPoint x="900" y="710" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="749" y="630" />
+                <mxPoint x="430" y="630" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-5">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-35" target="MhBi_5XJVtt8xiB_2HxH-3">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="80" y="240" as="sourcePoint" />
+              <mxPoint x="320" y="240" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-6">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-35" target="MhBi_5XJVtt8xiB_2HxH-19">
+            <mxGeometry x="-0.5385" width="240" relative="1" as="geometry">
+              <mxPoint x="870" y="280" as="sourcePoint" />
+              <mxPoint x="1110" y="280" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-7">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-35" target="MhBi_5XJVtt8xiB_2HxH-29">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="900" y="300" as="sourcePoint" />
+              <mxPoint x="1140" y="300" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-8">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-4" target="MhBi_5XJVtt8xiB_2HxH-52">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1010" y="340" as="sourcePoint" />
+              <mxPoint x="1250" y="340" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-9">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-4" target="MhBi_5XJVtt8xiB_2HxH-14">
+            <mxGeometry x="0.3784" width="240" relative="1" as="geometry">
+              <mxPoint x="390" y="-20" as="sourcePoint" />
+              <mxPoint x="630" y="-20" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="-640" />
+                <mxPoint x="760" y="-640" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="q31Tw1cvBgdYYX-DSmUY-10">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-4" target="MhBi_5XJVtt8xiB_2HxH-9">
+            <mxGeometry x="0.3506" width="240" relative="1" as="geometry">
+              <mxPoint x="370" y="-150" as="sourcePoint" />
+              <mxPoint x="610" y="-150" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="-310" />
+                <mxPoint x="760" y="-310" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Read and Write to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="qHbEUySZkudhV-8CZNvl-1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-14" target="ZjWl6C70G_oNHTCRjEiQ-0">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1000" y="-540" as="sourcePoint" />
+              <mxPoint x="1240" y="-540" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object c4Name="Open AI Service" c4Type="Container" c4Technology="GPT 4" c4Description="Represents an instance of the AI model GPT 4" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;black&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="_Q8Yvq7gVK_AUdjiKUyP-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#b1ddf0;align=center;arcSize=10;strokeColor=#10739e;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+            <mxGeometry x="1080" y="220" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="_Q8Yvq7gVK_AUdjiKUyP-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" vertex="1" parent="MhBi_5XJVtt8xiB_2HxH-1">
+          <mxGeometry x="1176" y="330" width="50" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="_Q8Yvq7gVK_AUdjiKUyP-2">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.996;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="MhBi_5XJVtt8xiB_2HxH-1" source="MhBi_5XJVtt8xiB_2HxH-52">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1130" y="180" as="sourcePoint" />
+              <mxPoint x="1202" y="220" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
