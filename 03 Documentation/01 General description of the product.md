@@ -100,4 +100,4 @@ We are talking about a mobile application that offers virtual avatars based on a
 
 ### How to interact with avatar?
 
-[Ver el video en YouTube]()
+[Ver el video en YouTube](https://youtu.be/33D6Y2SfBQE)
